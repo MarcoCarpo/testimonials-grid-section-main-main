@@ -130,7 +130,7 @@ body h3 {
 @media screen and (min-width: 1440px) {
   body main {
     position: relative;
-    height: 100vh;
+    max-height: 100vh;
   }
   body main .cards {
     margin: 15rem;

@@ -2,7 +2,7 @@
   body {
     main {
       position: relative;
-      height: 100vh;
+      max-height: 100vh;
 
       .cards {
         margin: 15rem;
