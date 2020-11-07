@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  main {
+    .cards {
+      margin: 6rem 0;
+      display: flex;
+      flex-direction: column;
+      color: $light-gray;
+
+      .card {
+        border-radius: 1.5rem;
+        margin: 1.3rem 2.6rem;
+        box-shadow: 0rem 0.5rem 1rem rgba(45, 32, 54, 0.616);
+
+        .card-container {
+          padding: 2.6rem;
+
+          .user-info {
+            display: flex;
+            justify-content: flex-start;
+
+            img {
+              border: 0.25rem solid rgb(158, 109, 238);
+              width: 3rem;
+              height: 3rem;
+              border-radius: 50%;
+              margin-right: 1.5rem;
+            }
+            .user-info-text {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+            }
+          }
+
+          .title-card {
+            margin: 2rem 0;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .daniel {
+        color: $light-grayish-blue;
+        background: $moderate-violet;
+      }
+
+      .jonathan {
+        color: $light-grayish-blue;
+        background: $dark-grayish-blue;
+      }
+
+      .jeanette {
+        background: $white;
+        color: $dark-grayish-blue;
+      }
+
+      .patrick {
+        color: $light-grayish-blue;
+        background: $dark-blackish-blue;
+      }
+
+      .kira {
+        background: $white;
+        color: $dark-blackish-blue;
+      }
+    }
+  }
+
+  .attribution {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
